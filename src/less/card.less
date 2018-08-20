@@ -1,0 +1,112 @@
+*{padding:0;margin:0;}
+.coantant-card{
+    height:20rem;
+    background:url("../imgs/card.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.select-list{
+    width:100%;
+    position:absolute;
+    top:9.5rem;
+
+    ul{
+        display: inline-block;
+        margin-left:.26rem;
+        .list-li{
+            width:2.4rem;
+            height:.6rem;
+            color:#f0501b;
+            line-height:.6rem;
+            background: #fff;
+            text-align: center;
+            border:none;
+            border-radius:.3rem;
+            position:relative;
+
+            &:after{
+                content: "";
+                width:.25rem;
+                height:.2rem;
+                background: url("../imgs/arrow.png") no-repeat;
+                background-size: 90% auto;
+                position: absolute;
+                top:.2rem;
+                right:.2rem;
+            }
+            input{
+                width:2rem;
+                height:.6rem;
+                color:#f0501b;
+                border:none;
+                outline: none;
+                padding-left:.2rem;
+            }
+        }
+        .system{
+            width:1.9rem;
+        }
+    }
+    .datas{
+        width:90%;
+        height:5rem;
+        background: #fff;
+        margin-top:.5rem;
+    }
+    .card-list{
+        width:90%;
+        height:2.1rem;
+        background: #fff;
+        margin-top:.2rem;
+        margin-left:.3rem;
+        overflow: hidden;
+        p{
+            margin-left:.24rem;
+            margin-top:.12rem;
+        }
+        h4{
+            margin-left:.24rem;
+            margin-top:.12rem;
+        }
+        .data-p{
+            width:2.8rem;
+            height:.6rem;
+            line-height: .6rem;
+            background: #fce6db;
+            margin-top:.24rem;
+            border-radius: 2px;
+            margin-left:.24rem;
+            text-align: center;
+            color:#f0501b;
+        }
+    }
+}
+.intrduce{
+    width:100%;
+    height:auto;
+    background: #f9f0e4;
+    h4{
+        padding-bottom:.4rem;
+        text-align:center;
+        color:#f0501b;
+        font-size: 14px;
+    }
+    .people-intrduce{
+        display: flex;
+        padding-bottom:5.7rem;
+        dt{
+            width:3.4rem;
+            img{
+                width:2,7rem;
+                height:3.3rem;
+                padding-left:.4rem;
+            }
+        }
+        dd{
+            flex:1;
+            p:nth-child(1){
+                padding-bottom:.2rem;
+                font-size: 14px;
+            }
+        }
+    }
+}

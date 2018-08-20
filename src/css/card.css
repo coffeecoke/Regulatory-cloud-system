@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.coantant-card {
+  height: 20rem;
+  background: url("../imgs/card.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+.select-list {
+  width: 100%;
+  position: absolute;
+  top: 9.5rem;
+}
+.select-list ul {
+  display: inline-block;
+  margin-left: .26rem;
+}
+.select-list ul .list-li {
+  width: 2.4rem;
+  height: .6rem;
+  color: #f0501b;
+  line-height: .6rem;
+  background: #fff;
+  text-align: center;
+  border: none;
+  border-radius: .3rem;
+  position: relative;
+}
+.select-list ul .list-li:after {
+  content: "";
+  width: .25rem;
+  height: .2rem;
+  background: url("../imgs/arrow.png") no-repeat;
+  background-size: 90% auto;
+  position: absolute;
+  top: .2rem;
+  right: .2rem;
+}
+.select-list ul .list-li input {
+  width: 2rem;
+  height: .6rem;
+  color: #f0501b;
+  border: none;
+  outline: none;
+  padding-left: .2rem;
+}
+.select-list ul .system {
+  width: 1.9rem;
+}
+.select-list .datas {
+  width: 90%;
+  height: 5rem;
+  background: #fff;
+  margin-top: .5rem;
+}
+.select-list .card-list {
+  width: 90%;
+  height: 2.1rem;
+  background: #fff;
+  margin-top: .2rem;
+  margin-left: .3rem;
+  overflow: hidden;
+}
+.select-list .card-list p {
+  margin-left: .24rem;
+  margin-top: .12rem;
+}
+.select-list .card-list h4 {
+  margin-left: .24rem;
+  margin-top: .12rem;
+}
+.select-list .card-list .data-p {
+  width: 2.8rem;
+  height: .6rem;
+  line-height: .6rem;
+  background: #fce6db;
+  margin-top: .24rem;
+  border-radius: 2px;
+  margin-left: .24rem;
+  text-align: center;
+  color: #f0501b;
+}
+.intrduce {
+  width: 100%;
+  height: auto;
+  background: #f9f0e4;
+}
+.intrduce h4 {
+  padding-bottom: .4rem;
+  text-align: center;
+  color: #f0501b;
+  font-size: 14px;
+}
+.intrduce .people-intrduce {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 5.7rem;
+}
+.intrduce .people-intrduce dt {
+  width: 3.4rem;
+}
+.intrduce .people-intrduce dt img {
+  width: 2,7rem;
+  height: 3.3rem;
+  padding-left: .4rem;
+}
+.intrduce .people-intrduce dd {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.intrduce .people-intrduce dd p:nth-child(1) {
+  padding-bottom: .2rem;
+  font-size: 14px;
+}
